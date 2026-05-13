@@ -1,0 +1,21 @@
+# Virtual environment
+dbt-env/
+
+# dbt compiled files and run artifacts
+de_project/target/
+de_project/dbt_packages/
+de_project/logs/
+
+# Raw data files (too large for GitHub)
+data/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
