@@ -13,6 +13,15 @@ models:
       - name: order_status
         tests:
           - not_null
+      - name: order_month
+        tests:
+          - not_null
+      - name: order_year
+        tests:
+          - not_null
+      - name: is_late_delivery
+        tests:
+          - not_null
 
   - name: stg_customers
     columns:
@@ -36,5 +45,8 @@ models:
         tests:
           - not_null
       - name: total_amount
+        tests:
+          - not_null
+      - name: shipping_cost_ratio
         tests:
           - not_null
